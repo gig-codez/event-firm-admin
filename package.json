@@ -9,7 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.6",
+    "@mui/material": "^5.15.6",
     "autoprefixer": "10.4.14",
+    "firebase-admin": "^12.0.0",
     "mongoose": "^7.4.2",
     "next": "13.4.13",
     "next-auth": "^4.23.0",

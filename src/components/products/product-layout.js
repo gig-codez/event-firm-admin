@@ -45,7 +45,7 @@ export default function ProductLayout({ children }) {
 
   return (
     <div>
-      <Button onClick={() => setShowModal(true)} text={"Add New Inventory"} />
+      
       {children}
       <Modal
         show={showModal}

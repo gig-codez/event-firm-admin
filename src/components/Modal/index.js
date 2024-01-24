@@ -52,7 +52,14 @@ export default function Modal({
                             label={item.label}
                             options={item.options}
                           />
-                        ) : null
+                        ) : item.componentType === "file" ? (
+                          <input type="file" className="" onChange={(e) =>{ 
+                            setFormData({
+                              ...formData,
+                              [item.id]: e.target.files[0],
+                            })
+                          }} accept="image/*"/>
+                        ): null
                       )
                     : null}
                 </div>

@@ -7,107 +7,91 @@ export const productFormControls = [
     componentType: "input",
   },
   {
-    id: "visitors",
-    type: "number",
-    placeholder: "Enter No of visitors",
-    label: "No of visitors",
+    id: "description",
+    type: "text",
+    placeholder: "Provide item description",
+    label: "Description",
     componentType: "input",
   },
   {
     id: "price",
     type: "number",
-    placeholder: "Enter Product Price",
-    label: "Product Price",
+    placeholder: "Enter item Price",
+    label: "Price",
     componentType: "input",
   },
   {
-    id: "sales",
-    type: "number",
+    id: "image",
+    type: "file",
     placeholder: "Enter No of sales",
-    label: "No of Sales",
+    label: "Upload File",
+    componentType: "file",
+  },{
+    id: "location",
+    type: "text",
+    placeholder: "Enter location",
+    label: "Location",
     componentType: "input",
   },
-  {
-    id: "month",
-    type: "",
-    placeholder: "",
-    label: "Month",
-    componentType: "select",
-    options: [
-      {
-        id: "jan",
-        label: "January",
-      },
-      {
-        id: "feb",
-        label: "February",
-      },
-      {
-        id: "mar",
-        label: "March",
-      },
-      {
-        id: "apr",
-        label: "April",
-      },
-      {
-        id: "may",
-        label: "May",
-      },
-      {
-        id: "jun",
-        label: "June",
-      },
-      {
-        id: "jul",
-        label: "July",
-      },
-      {
-        id: "aug",
-        label: "August",
-      },
-      {
-        id: "sep",
-        label: "September",
-      },
-      {
-        id: "oct",
-        label: "October",
-      },
-      {
-        id: "nov",
-        label: "November",
-      },
-      {
-        id: "dec",
-        label: "December",
-      },
-    ],
-  },
+  // {
+  //   id: "month",
+  //   type: "",
+  //   placeholder: "",
+  //   label: "Month",
+  //   componentType: "select",
+  //   options: [
+  //     {
+  //       id: "jan",
+  //       label: "January",
+  //     },
+  //     {
+  //       id: "feb",
+  //       label: "February",
+  //     },
+  //     {
+  //       id: "mar",
+  //       label: "March",
+  //     },
+  //     {
+  //       id: "apr",
+  //       label: "April",
+  //     },
+  //     {
+  //       id: "may",
+  //       label: "May",
+  //     },
+  //     {
+  //       id: "jun",
+  //       label: "June",
+  //     },
+  //     {
+  //       id: "jul",
+  //       label: "July",
+  //     },
+  //     {
+  //       id: "aug",
+  //       label: "August",
+  //     },
+  //     {
+  //       id: "sep",
+  //       label: "September",
+  //     },
+  //     {
+  //       id: "oct",
+  //       label: "October",
+  //     },
+  //     {
+  //       id: "nov",
+  //       label: "November",
+  //     },
+  //     {
+  //       id: "dec",
+  //       label: "December",
+  //     },
+  //   ],
+  // },
 ];
 
-export const productTableHeaders = [
-  {
-    id: "name",
-    label: "Name",
-  },
-  {
-    id: "month",
-    label: "Month",
-  },
-  {
-    id: "price",
-    label: "Price",
-  },
-  {
-    id: "sales",
-    label: "Sales",
-  },
-  {
-    id: "revenue",
-    label: "Revenue",
-  },
-];
 
 export const monthsMapper = {
   jan: "January",
@@ -468,3 +452,4 @@ export const deviceAnalyticsChartOptions = {
     },
   ],
 };
+

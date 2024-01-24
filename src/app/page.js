@@ -28,7 +28,7 @@ async function extractAllVisitors() {
 export default async function Home() {
   const allProducts = await extractAllProducts();
   const allVisitors = await extractAllVisitors();
-  console.log(allProducts);
+  // console.log(allProducts);
 
   return (
     <DashboardLayout
