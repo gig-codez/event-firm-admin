@@ -1,14 +1,11 @@
 import firebase from "firebase-admin";
-import teammodel from "../models/teammodel.js";
-import leaguemodel from "../models/leaguemodel.js";
-import playersmodel from "../models/playersmodel.js";
 /***
  * 
  */
 const fileStorageMiddleware = async (req) => {
     // Upload the image to Firebase Storage
     const bucket = firebase.storage().bucket();
-    const file = bucket.file(`samba/${req.body.action}/${req.file.originalname}`);
+    const file = bucket.file(`${req.file.originalname}`);
     const metadata = {
         contentType: req.file.mimetype,
     };
