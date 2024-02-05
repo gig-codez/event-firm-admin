@@ -1,0 +1,174 @@
+/* ###### Notification List ###### */
+.notify-time {
+    position: absolute;
+    inset-block: auto;
+    inset-inline-start: auto;
+    inset-inline-end: 25px;
+  }
+  
+  @media (max-width: 767px) {
+    .notify-time {
+      display: none;
+    }
+  }
+  
+  .notification {
+    list-style-type: none;
+    padding: 0;
+    position: relative;
+  }
+  
+  .notification:before {
+    content: "";
+    position: absolute;
+    inset-block: 15px;
+    width: 3px;
+    background: $primary-02;
+    inset-inline-start: 20%;
+    margin-inline-start: -1px;
+  }
+  
+  .notification > li {
+    position: relative;
+    min-height: 50px;
+    padding: 15px 0;
+  }
+  
+  .notification .notification-time {
+    position: absolute;
+    inset-inline-start: 0;
+    width: 18%;
+    text-align: end;
+    inset-block-start: 30px;
+  }
+  
+  .notification .notification-time .date,
+  .notification .notification-time .time {
+    display: block;
+    font-weight: 500;
+  }
+  
+  .notification .notification-time .date {
+    line-height: 16px;
+    font-size: 13px;
+    margin-bottom: 4px;
+    color: $default-text-color;
+  }
+  
+  .notification .notification-time .time {
+    line-height: 24px;
+    font-size: 21px;
+    color: $default-text-color;
+  }
+  
+  .notification .notification-icon {
+    inset-inline-start: 15%;
+    position: absolute;
+    width: 10%;
+    text-align: center;
+    inset-block-start: 41px;
+  }
+  
+  .notification .notification-icon a {
+    text-decoration: none;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    border-radius: 50%;
+    background: $custom-white;
+    line-height: 10px;
+    color: $white;
+    font-size: 14px;
+    border: 3px solid $primary;
+    transition: border-color 0.2s linear;
+  }
+  
+  .notification .notification-body {
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.05);
+    margin-inline-start: 24%;
+    margin-inline-end: 18%;
+    background: $custom-white;
+    position: relative;
+    padding: 14px 20px;
+    border-radius: 6px;
+  }
+  
+  .notification .notification-body:before {
+    content: "";
+    display: block;
+    position: absolute;
+    border: 10px solid transparent;
+    border-inline-end-color: $custom-white;
+    inset-inline-start: -20px;
+    top: 25px;
+  }
+  
+  .notification .notification-body > div + div {
+    margin-top: 15px;
+  }
+  
+  @media (max-width: 767px) {
+    .notification:before {
+      display: none;
+    }
+  
+    .notification .notification-time .date {
+      display: none;
+    }
+  
+    .notification .notification-time .time {
+      display: none;
+    }
+  
+    .notification .notification-icon {
+      display: none;
+    }
+  
+    .notification .notification-body {
+      margin-inline: 0 !important;
+    }
+  }
+  
+  .notification-time-date {
+    color: $default-text-color;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .media img {
+    border-radius: 4px;
+  }
+  
+  @media only screen and  (max-width:355px) {
+    #awn-toast-container {
+        right: 10px !important;
+        .awn-toast {
+          width: 300px !important;
+        }
+    }
+  }
+  .awn-popup-loading-dots {
+    color: $default-text-color !important;
+  }
+  #awn-popup-wrapper .awn-popup-body.awn-popup-async-block {
+    color: $default-text-color !important;
+  }
+  #awn-popup-wrapper .awn-buttons .awn-btn {
+    color: $default-text-color;
+  }
+  [dir="rtl"] {
+    .awn-popup-loading-dots {
+      color: $default-text-color;
+      margin-right: 24px !important;
+      margin-left: inherit !important;
+    }
+    .awn-popup-loading-dots:before {
+      right: -16px !important;
+      left: inherit !important;
+    }
+    .awn-popup-loading-dots:after {
+      right: 16px !important;
+      left: inherit !important;
+    }
+  }
+  /* ###### Notification List ###### */
+  

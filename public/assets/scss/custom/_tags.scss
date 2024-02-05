@@ -1,0 +1,344 @@
+/* ###### Tags  ###### */
+
+.tag {
+  font-size: 0.75rem;
+  border-radius: 0px;
+  padding: 0 .5rem;
+  line-height: 2em;
+  border-radius: 0.25rem;
+  background-color: $default-background;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  cursor: default;
+  font-weight: 400;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.tag-pill {
+  padding-right: 0.6em;
+  padding-left: 0.6em;
+  border-radius: 50px;
+}
+a.tag {
+  text-decoration: none;
+  cursor: pointer;
+  transition: .3s color, .3s background;
+
+  &:hover {
+    background-color: rgba(110, 118, 135, 0.2);
+    color: inherit;
+  }
+}
+
+.tag-addon {
+  display: inline-block;
+  padding: 0 .5rem;
+  color: inherit;
+  text-decoration: none;
+  margin-block: 0;
+  margin-inline-end: -.5rem;
+  margin-inline-start: .5rem;
+  text-align: center;
+  min-width: 1.5rem;
+  background: $default-background;
+
+  &:last-child {
+    border-start-end-radius: 3px;
+    border-end-end-radius: 3px;
+  }
+
+  i {
+    vertical-align: middle;
+    margin: 0 -.25rem;
+  }
+}
+
+a.tag-addon {
+  text-decoration: none;
+  cursor: pointer;
+  transition: .3s color, .3s background;
+
+  &:hover {
+    background: rgba(0, 0, 0, 0.16);
+    color: inherit;
+  }
+}
+
+.tag-avatar {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-start-start-radius: 3px;
+  border-start-end-radius: 0;
+  border-end-end-radius: 0;
+  border-end-start-radius: 3px;
+  margin-block-start: 0;
+  margin-inline-end: .5rem;
+  margin-block-end: 0;
+  margin-inline-start: -.5rem;
+}
+
+.tag-blue {
+  background-color: #467fcf !important; 
+  color: $white !important; 
+}
+
+.tag-indigo {
+  background-color: $primary !important;
+  color: $white !important; 
+}
+
+.tag-purple {
+  background-color: #8500ff !important;
+  color: $white !important; 
+}
+
+.tag-pink {
+  background-color: #ec82ef !important;
+  color: $white !important; 
+}
+
+.tag-red {
+  background-color: #ec2d38 !important;
+  color: $white !important; 
+}
+
+.tag-yellow {
+  background-color: #fdb901 !important;
+  color: $white !important; 
+}
+
+.tag-green {
+  background-color: #0fa751 !important;
+  color: $white !important; 
+}
+
+.tag-cyan {
+  background-color: #00b9ff !important;
+  color: $white !important; 
+}
+
+.tag-white {
+  background-color: $white !important; 
+  color: $white !important; 
+}
+
+.tag-gray {
+  background-color: #868e96 !important;
+  color: $white !important; 
+}
+
+.tag-gray-dark {
+  background-color: #343a40 !important;
+  color: $white !important; 
+}
+
+.tag-azure {
+  background-color: #17c1f4 !important;
+  color: $white !important; 
+}
+
+.tag-lime {
+  background-color: #7bd235 !important;
+  color: $white !important; 
+}
+
+.tag-secondary {
+  background-color: $secondary !important;
+  color: $white !important; 
+}
+
+.tag-success {
+  background-color: $success !important;
+  color: $white !important; 
+}
+
+.tag-info {
+   background-color: $info !important;
+  color: $white !important; 
+}
+
+.tag-default {
+  // background-color: $default-background;
+  color: #828db1;
+}
+
+.tag-warning {
+  background-color:$warning !important;
+  color: $white !important; 
+}
+
+.tag-danger {
+  background-color: #f16d75 !important;
+  color: $white !important; 
+}
+
+.tag.tag-attachments {
+  padding: 4px 15px 2px 15px;
+  font-size: 15px;
+  background-color: $custom-white;
+  border: 1px solid $default-border;
+}
+
+.tag-light {
+  background-color: $light !important;
+  color: $default-text-color !important; 
+}
+
+.tag-dark {
+  background-color: #8f9cc0 !important;
+  color: $white !important; 
+}
+
+.tag-rounded {
+  border-radius: 50px;
+
+  .tag-avatar {
+    border-radius: 50px;
+  }
+}
+
+.tags {
+  margin-bottom: -.5rem;
+  font-size: 0;
+
+  > .tag {
+    margin-bottom: .5rem;
+
+    &:not(:last-child) {
+      margin-inline-end: .5rem;
+    }
+  }
+}
+.tag.tag-attachments-lg {
+  padding: 5px 17px 3px 17px;
+  font-size: 17px;
+  background-color: $custom-white;
+  border: 1px solid $default-border;
+}
+
+.tag.tag-attachments-sm {
+  padding: 3px 10px 1px 10px;
+  font-size: 13px;
+  background-color: $custom-white;
+  border: 1px solid $default-border;
+}
+
+
+.tags .tag-files span {
+  position: absolute;
+  inset-block-start: 21px;
+  margin-inline-end: 104px;
+  inset-inline-start: 51px;
+  font-size: 12px;
+  color: #a5b1d9;
+}
+
+.attached-file-grid6 .icons li a {
+  font-size: 13px;
+  line-height: 30px;
+  text-align: center;
+  height: 30px;
+  width: 30px;
+  margin: 0 auto;
+  border-radius: 5px;
+  display: block;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  background: $white;
+}
+
+.attached-file-grid6 .icons li a {
+  color: $primary;
+  border: 1px solid $white;
+}
+
+.attached-file-grid6 .icons {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  opacity: 0;
+  inset-inline-start: 0;
+  inset-inline-end: 0;
+  text-align: center;
+  position: absolute;
+  inset-block-end: -3px;
+  z-index: 1;
+  transition: all 0.5s ease 0s;
+  display: block;
+  margin: 0 auto;
+  background-image: linear-gradient(to top, $black-5, transparent 100%);
+}
+
+.pro-img-box {
+  position: relative;
+}
+
+.attached-file-grid6 .icons li {
+  margin: 0 auto;
+  display: inline-block;
+  opacity: 0;
+  transition: all 0.4s ease;
+}
+
+.attached-file-grid6 .icons li a:hover {
+  color: $white;
+}
+
+.attached-file-grid6 .icons li a:hover {
+  border: $primary;
+  background: $primary;
+}
+
+.attached-file-grid6 .file-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.attached-file-image .pic-1 {
+  transition: all 0.3s ease;
+}
+
+.attached-file-image .pic-2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: all 0.3s ease;
+  inset: 0;
+  margin: 0 auto;
+}
+
+.attached-file-grid6:hover .attached-file-image .pic-2 {
+  opacity: 0;
+}
+
+.attached-file-grid6:hover .icons {
+  opacity: 1;
+  inset-block-end: 0px;
+  inset-inline: 0;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+}
+
+.attached-file-grid6:hover .icons li {
+  opacity: 1;
+}
+
+.image-pic {
+  position: absolute;
+  inset-inline: 0;
+  inset-block-start: 0px;
+  color: $white;
+  font-size: 17px;
+  background-image: linear-gradient(to bottom, $black-5, transparent 100%);
+  padding-block-start: 0;
+  padding-inline-end: 0;
+  padding-block-end: 20px;
+  padding-inline-start: 10px;
+  border-radius: 5px;
+}
+/* ###### Tags  ###### */

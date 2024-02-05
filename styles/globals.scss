@@ -1,0 +1,20 @@
+//assets
+@import "../public/assets/css/styles.css";
+@import "../public/assets/scss/variables";
+@import '../node_modules/leaflet/dist/leaflet.css';
+/* React-notifications */
+@import "~react-toastify/dist/ReactToastify.css";
+@import "react-datepicker/dist/react-datepicker.css";
+@import "filepond/dist/filepond.min.css";
+/* react-slick */
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+//simonwep colorpicker
+@import "@simonwep/pickr/dist/themes/classic.min.css"; // 'classic' theme
+@import "@simonwep/pickr/dist/themes/monolith.min.css"; // 'monolith' theme
+@import "@simonwep/pickr/dist/themes/nano.min.css"; // 'nano' theme
+// @import "../public/assets/css/icons.css";
+@import "../public/assets/scss/switcher";
+@import 'react-quill/dist/quill.snow.css'; //  (Quill styles)
+@import 'simplebar-react/dist/simplebar.min.css';
+

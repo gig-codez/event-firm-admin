@@ -1,0 +1,156 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project                            :   SPRUHA - Nextjs  Admin Template
+Create Date                        :   03-01-2024
+Author & Copyright Ownership       :   Spruko Technologies Private Limited 
+Author URL                         :   https://themeforest.net/user/spruko
+Support	                           :   https://support.spruko.com/
+License Details                    :   https://spruko.com/licenses-details
+------------------------------------------------------------------*/
+
+/* Table Of Content 
+variables
+switcher
+accordion
+alerts
+badge
+buttons
+cards
+dropdown
+forms
+input_group
+list_group
+modals
+navbar
+navs_tabs
+pagination
+popovers
+progress
+tables
+toast
+tooltips
+custom
+dashboard_styles
+error
+header
+image
+plugins
+widgets
+Tags
+Pricing
+sign-up
+closed_menu
+detached_menu
+double_menu
+horizontal
+icon_click
+icon_hover
+icon_overlay
+icontext
+menu_click
+vertical
+chat
+ecommerce
+file-manager
+mail
+task
+Timeline
+Profile
+Notifications
+Cryptocurrency
+Landing
+avatars
+background
+border
+opacity
+typography
+Height
+Margin
+Padding
+Width
+*/
+
+
+/* FONT */
+/* Roboto */
+// @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800");
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&display=swap');
+
+@import "variables";
+@import "switcher";
+@import "bootstrap";
+/* BOOTSTRAP */
+@import "bootstrap/accordion";
+@import "bootstrap/alerts";
+@import "bootstrap/badge";
+@import "bootstrap/breadcrumb";
+@import "bootstrap/buttons";
+@import "bootstrap/cards";
+@import "bootstrap/dropdown";
+@import "bootstrap/forms";
+@import "bootstrap/input_group";
+@import "bootstrap/list_group";
+@import "bootstrap/modals";
+@import "bootstrap/navbar";
+@import "bootstrap/navs_tabs";
+@import "bootstrap/pagination";
+@import "bootstrap/popovers";
+@import "bootstrap/progress";
+@import "bootstrap/tables";
+@import "bootstrap/toast";
+@import "bootstrap/tooltips";
+
+/* CUSTOM */
+@import "custom/custom";
+@import "custom/dashboard_styles";
+@import "custom/error";
+@import "custom/header";
+@import "custom/image";
+@import "custom/plugins";
+@import "custom/pricing";
+@import "custom/tags";
+@import "custom/widgets";
+
+/* MENU-STYLES */
+@import "menu-styles/closed_menu";
+@import "menu-styles/detached_menu";
+@import "menu-styles/double_menu";
+@import "menu-styles/horizontal";
+@import "menu-styles/icon_click";
+@import "menu-styles/icon_hover";
+@import "menu-styles/icon_overlay";
+@import "menu-styles/icontext";
+@import "menu-styles/menu_click";
+@import "menu-styles/menu_hover";
+@import "menu-styles/vertical";
+
+/* PAGES */
+@import "pages/chat";
+@import "pages/cryptocurrency";
+@import "pages/ecommerce";
+@import "pages/file-manager";
+@import "pages/landing";
+@import "pages/mail";
+@import "pages/notifications";
+@import "pages/profile";
+@import "pages/task";
+@import "pages/timeline";
+
+
+/* UTILITIES */
+@import "util/avatars";
+@import "util/background";
+@import "util/border";
+@import "util/height";
+@import "util/margin";
+@import "util/opacity";
+@import "util/padding";
+@import "util/typography";
+@import "util/width";
+
+/* GLOBAL */
+@import "global/global"

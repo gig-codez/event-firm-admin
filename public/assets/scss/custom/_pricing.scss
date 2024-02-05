@@ -1,0 +1,206 @@
+.price-img {
+    padding-block-start: 2rem;
+  
+    i {
+      font-size: 3rem;
+      border-radius: 50%;
+      height: 100px;
+      width: 100px;
+      line-height: 100px;
+    }
+}
+  
+  .price-1 .list-unstyled li {
+    padding: 7px 0;
+  }
+  
+  .card-pricing h1 {
+    font-size: 2.5rem !important;
+    padding: 15px 30px;
+    text-align: center;
+  }
+  
+  .pricing-title {
+    text-align: center;
+    padding-block-start: 20px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .card-pricing2 h1,
+  .card-pricing3 h1,
+  .card-pricing4 h1 {
+    font-size: 2.5rem !important;
+    padding: 15px 30px;
+    text-align: center;
+  }
+  
+  .card-pricing .list-unstyled li,
+  .card-pricing2 .list-unstyled li,
+  .card-pricing3 .list-unstyled li,
+  .card-pricing4 .list-unstyled li {
+    padding: 0.5rem 0;
+    border-block-end: 0;
+    display: block;
+  }
+  
+  .pricing-tabs {
+    .pri-tabs-heading {
+      padding: 15px;
+      text-align: center;
+      margin: 0 auto;
+      display: inline-table;
+    }
+  
+    .nav-price li {
+      a {
+        padding-block-start: 10px;
+        padding-inline-end: 20px;
+        padding-block-end: 10px;
+        padding-inline-start: 20px;
+        color: #828db1;
+        background: $white;
+        border: 1px solid $default-border;
+      }
+  
+      .active {
+        background: $default-background;
+        color: $primary;
+      }
+    }
+
+    .pri-tabs-heading .nav-price {
+      .monthly {
+        border-start-start-radius: 4px;
+        border-end-start-radius: 4px;
+      }
+      .annualy {
+        border-start-end-radius: 4px;
+        border-end-end-radius: 4px;
+      }
+    } 
+  
+    .tab-content {
+      padding: 15px;
+      margin-block-start: 1.5rem;
+    }
+  }
+  
+  .pricing1 .price {
+    font-size: 2.5rem;
+  }
+  
+  .pricingTable2 {
+    text-align: center;
+    background: $custom-white;
+    border: 1px solid $default-border;
+  }
+  
+  .pricingTable2-header {
+    padding: 25px 10px;
+    background-color: $custom-white;
+    border-radius: 6px !important;
+  }
+  
+  .pricingTable2 .pricingTable2-header h3 {
+    font-size: 21px;
+    letter-spacing: 2px;
+    color: $default-text-color;
+    text-transform: uppercase;
+    margin: 0px;
+  }
+  
+  .pricingTable2-header span {
+    display: none;
+    font-size: 12px;
+  }
+  
+  .card-pricing.pricing1 .list-unstyled li {
+    display: block;
+  }
+  
+  .pricing-plans {
+    padding: 25px 0;
+  }
+  
+  .price-value1 {
+    font-size: 25px;
+    line-height: 35px;
+    color: $white;
+    display: inline-block;
+    position: relative;
+  
+    i {
+      position: absolute;
+      inset-block-start: 3px;
+      font-size: 22px;
+    }
+  
+    span {
+      font-size: 40px;
+      color: $white;
+      margin-inline-start: 17px;
+    }
+  }
+  
+  .pricing-plans .month {
+    color: $white;
+    display: inline-block;
+    font-size: 15px;
+    margin-block-start: 15px;
+    font-weight: 100;
+  }
+  
+  .pricingContent2 ul {
+    padding: 0 15px;
+    margin-block-end: 0;
+    list-style: none;
+  
+    li {
+      padding-block-start: 25px;
+      padding-inline-end: 0;
+      padding-block-end: 0;
+      padding-inline-start: 0;
+      text-transform: capitalize;
+  
+      &:last-child {
+        padding-block-end: 25px;
+      }
+    }
+  }
+  
+  .price-value-content ul li {
+    padding: 8px 0;
+    text-transform: capitalize;
+  }
+  
+  .pricingTable2 {
+    .pricingTable2-sign-up {
+      padding: 25px 0;
+      border-block-start: 1px solid $default-border;
+    }
+  
+    .btn-block {
+      width: 50%;
+      margin: 0 auto;
+      padding: 10px 0;
+      color: $white;
+      text-transform: uppercase;
+      border-radius: 50px;
+      transition: 0.3s ease;
+    }
+  
+    &.green .pricing-plans {
+      background-color: #10d403;
+    }
+  
+    &.info .pricing-plans {
+      background-color: #0ab2e6;
+    }
+  }
+  
+  @media screen and (max-width: 990px) {
+    .pricingTable2 {
+      margin-block-end: 30px;
+    }
+  }
